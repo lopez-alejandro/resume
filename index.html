@@ -2,13 +2,17 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/cosmo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="app/components/nav/nav.css">
+
+
 
     <script type="text/javascript" src="assets/bower_components/angular/angular.js"></script>
     <script type="text/javascript" src="assets/bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="assets/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="assets/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
-    <!-- include js files here -->
+    <!-- include app js files here -->
     <script type="text/javascript" src="app/app.module.js"></script>
     <script type="text/javascript" src="app/app.routes.js"></script>
     <script type="text/javascript" src="app/components/home/homeController.js"></script>
@@ -18,7 +22,11 @@
 
 <body>
     <div ng-app='app'>
-        <div ui-view></div>
+        <div ng-include="'app/components/nav/nav.html'"></div>
+        <div ui-view>
+
+
+        </div>
     </div>
 </body>
 
