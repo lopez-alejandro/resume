@@ -1,0 +1,19 @@
+#profileImg {
+    height: 500px;
+    width: auto;
+    left: 500px;
+    display: block;
+    margin: auto;
+}
+#smallBioContainer {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+#smallBioContainer h1 {
+    text-align: center;
+    font-size: 48px;
+}
+#smallBioContainer p {
+    margin-top: 20px;
+}

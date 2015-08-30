@@ -14,5 +14,9 @@
                 url: '/home',
                 templateUrl: 'app/components/home/home.html'
             })
+            .state('education', {
+                url: '/education',
+                templateUrl: 'app/components/education/education.html'
+            })
     }
 })();

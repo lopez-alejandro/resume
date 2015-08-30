@@ -1,4 +1,9 @@
 .navContainer {
-    width: 980px;
+    max-width: 980px;
     margin: auto;
+    margin-bottom: 0;
+}
+#triangleImg {
+    width: 30px;
+    height: auto;
 }

@@ -1,3 +1,18 @@
-<div ng-controler="HomeController as vm">
+<div ng-controller="HomeController as vm">
+    <div class="contentBackground">
+        <div class="contentContainer">
+            <div class="col-md-6">
+                <img id="profileImg" src="../../../assets/img/homeProfile.jpg">
+            </div>
+            <div id="smallBioContainer" class="col-md-6">
+                <h1>{{vm.name}}</h1>
+
+                <p>{{vm.smallBioOne}}</p>
+                <p>{{vm.smallBioTwo}}</p>
+                <p>{{vm.smallBioThree}}</p>
+            </div>
+        </div>
+    </div>
+
 
 </div>

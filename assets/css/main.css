@@ -1,1 +1,10 @@
-
+.contentBackground {
+    width: 100%;
+    height: 500px;
+}
+.contentContainer {
+    width: 980px;
+    height: inherit;
+    padding: 20px;
+    margin: auto;
+}
